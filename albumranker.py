@@ -1,6 +1,6 @@
 import os
 import random
-
+#I uploaded a bunch of albums (some good some not-so-good) in albums.txt for testing. Change them if you want to rate your own
 def load_albums(filename="albums.txt"):
     # Reads album names from a text file    
     with open(filename, "r", encoding="utf-8") as f:
